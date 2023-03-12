@@ -12,3 +12,21 @@ Use `cargo test` to evaluate yourself:
 $ cargo test
 ...
 ```
+
+## Requirements
+
+### Flexible parser
+
+Create a single function that can parse dates from the following patterns:
+
+2002 Feb 02
+2010-12-11
+1999/March/02
+01.March.2021
+Mar.05.2021
+
+### Extra
+
+* More formats
+* More locales
+* Ambiguous cases

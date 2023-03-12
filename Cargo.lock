@@ -214,6 +214,9 @@ dependencies = [
 [[package]]
 name = "inconsistent_dates"
 version = "0.1.0"
+dependencies = [
+ "chrono",
+]
 
 [[package]]
 name = "insensitive_sort"

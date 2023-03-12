@@ -30,6 +30,9 @@ version = "0.1.0"
 [[package]]
 name = "calc_num_weeks_between_dates"
 version = "0.1.0"
+dependencies = [
+ "chrono",
+]
 
 [[package]]
 name = "cards"

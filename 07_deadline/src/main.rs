@@ -21,11 +21,7 @@ impl Deadline for ImportantEvent {
         let cur_local = Local::now();
         println!("Well today is {}...", cur_local.format("%d/%m/%Y"));
 
-        if cur_local < self.when {
-            return false;
-        }
-
-        true
+        self.when < cur_local
     }
 }
 

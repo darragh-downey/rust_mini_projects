@@ -1,8 +1,6 @@
-// TODO: import the necessary dependencies
 use chrono::prelude::*;
 
 struct ImportantEvent {
-    // TODO: define data structure
     what: String,
     when: DateTime<Local>,
 }

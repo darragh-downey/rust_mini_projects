@@ -44,7 +44,7 @@ fn in_past() {
 
     let event = ImportantEvent {
         what: String::from("friend's birthday"),
-        when: Local::today() - Duration::hours(25),
+        when: Local::now() - Duration::hours(25),
     };
 
     assert!(event.is_passed())
@@ -56,7 +56,7 @@ fn in_future() {
 
     let event = ImportantEvent {
         what: String::from("friend's birthday"),
-        when: Local::today() + Duration::hours(25),
+        when: Local::now() + Duration::hours(25),
     };
 
     assert!(!event.is_passed())
